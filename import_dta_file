@@ -1,6 +1,6 @@
 install.packages('haven')
 #name the dataset imported
-data <- read_dta('/Users/alivaughan/rstats/pooled_dataset_patient.dta')
+data <- read_dta('insert filepath')
 head(data)
 #view variables
 colnames(data)
